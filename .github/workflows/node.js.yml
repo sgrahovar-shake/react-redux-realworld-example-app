@@ -10,17 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-
-  install_docker:
-      runs-on: macos-latest
-      steps:
-        - name: echo
-          run: |
-            brew install docker-machine docker
-            sudo docker
-          
   ui-chrome-tests:
-    needs: install_docker
     timeout-minutes: 15
     runs-on: macos-latest
     container: cypress/browsers:node14.17.0-chrome88-ff89
@@ -31,10 +21,13 @@ jobs:
       # leaving the Dashboard hanging ...
       # https://github.com/cypress-io/github-action/issues/48
       fail-fast: false
-      matrix:
+      # matrix:
         # run copies of the current job in parallel
-        containers: [1]
+        # containers: [1]
     steps:
+      - name: setup-docker
+        uses: docker-practice/actions-setup-docker@1.0.8
+    
       - name: Checkout
         uses: actions/checkout@v2
 
