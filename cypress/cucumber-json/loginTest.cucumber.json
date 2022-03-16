@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login test",
+    "line": 1,
+    "id": "login-test",
+    "tags": [],
+    "uri": "loginTest.feature",
+    "elements": [
+      {
+        "id": "login-test;user-signs-in-as-testuser",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User signs in as testuser",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 8993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User \"testuser\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User inputs username",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User inputs password",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User presses Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 680000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test;user-signs-in-as-testuser2",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User signs in as testuser2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User signs out",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User signs in as \"testuser2\"",
+            "result": {
+              "status": "passed",
+              "duration": 1513000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test;user-signs-in-as-newuser2",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User signs in as newuser2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "User signs out",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User navigates to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User \"newuser2\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User inputs username",
+            "result": {
+              "status": "passed",
+              "duration": 469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User inputs password",
+            "result": {
+              "status": "passed",
+              "duration": 341000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

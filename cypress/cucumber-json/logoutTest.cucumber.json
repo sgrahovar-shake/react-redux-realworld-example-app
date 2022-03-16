@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sign out",
+    "line": 1,
+    "id": "sign-out",
+    "tags": [],
+    "uri": "logoutTest.feature",
+    "elements": [
+      {
+        "id": "sign-out;user-signs-in-as-testuser",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User signs in as testuser",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User signs in as \"testuser\"",
+            "result": {
+              "status": "passed",
+              "duration": 14986000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-out;sign-out",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Sign out",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User signs out",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User is signed out",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

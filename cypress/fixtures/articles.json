@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Article Title #1",
+        "description": "Article Description #1",
+        "text": "Article Text #1",
+        "tags": "Tag1"
+    },
+    {
+        "title": "Article Title #2",
+        "description": "Article Description #2",
+        "text": "Article Text #2",
+        "tags": "Tag2"
+    },
+    {
+        "title": "Article Title #3",
+        "description": "Article Description #3",
+        "text": "Article Text #3",
+        "tags": "Tag3"
+    },
+    {
+        "title": "Article Title #4",
+        "description": "Article Description #4",
+        "text": "Article Text #4",
+        "tags": "Tag4"
+    },
+    {
+        "title": "Article Title #5",
+        "description": "Article Description #5",
+        "text": "Article Text #5",
+        "tags": "Tag5"
+    }
+]
