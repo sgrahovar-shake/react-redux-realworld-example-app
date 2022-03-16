@@ -22,12 +22,12 @@ jobs:
         with:
           runTests: false
           
-      - name: Save build folder
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          if-no-files-found: error
-          path: build
+      #- name: Save build folder
+        #uses: actions/upload-artifact@v2
+        #with:
+          #name: build
+          #if-no-files-found: error
+          #path: build
   
   ui-chrome-tests:
     timeout-minutes: 15
