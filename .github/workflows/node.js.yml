@@ -40,8 +40,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         
-      - name: install dbus
-        run: apt-get install -y dbus
+      # - name: install dbus
+        # run: apt-get install -y dbus
         
       - name: Setup node
         uses: actions/setup-node@v2
