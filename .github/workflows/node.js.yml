@@ -27,17 +27,18 @@ jobs:
         # containers: [1]
         
     steps:
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          cache: npm
 
-    
+
       - name: Checkout
         uses: actions/checkout@v2
         
       - name: install dbus
         run: apt-get install -y dbus
+        
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: npm
 
       - name: "UI Tests - Chrome"
         uses: cypress-io/github-action@v2
