@@ -13,7 +13,7 @@ jobs:
   ui-chrome-tests:
     timeout-minutes: 15
     runs-on: ubuntu-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
+    container: cypress/browsers:node14.15.0-chrome96-ff94
     # needs: install_docker
     strategy:
       # when one test fails, DO NOT cancel the other
