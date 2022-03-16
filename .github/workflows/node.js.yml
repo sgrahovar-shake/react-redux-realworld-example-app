@@ -21,7 +21,8 @@ jobs:
       # leaving the Dashboard hanging ...
       # https://github.com/cypress-io/github-action/issues/48
       fail-fast: false
-      # matrix:
+      matrix:
+        node-version: [14.x]
         # run copies of the current job in parallel
         # containers: [1]
         
