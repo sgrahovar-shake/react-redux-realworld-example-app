@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Login test",
+    "name": "Login test with three users",
     "line": 1,
-    "id": "login-test",
+    "id": "login-test-with-three-users",
     "tags": [],
-    "uri": "loginTest.feature",
+    "uri": "LoginTest.feature",
     "elements": [
       {
-        "id": "login-test;user-signs-in-as-testuser",
+        "id": "login-test-with-three-users;user-signs-in-as-testuser",
         "keyword": "Scenario",
         "line": 3,
         "name": "User signs in as testuser",
@@ -22,7 +22,7 @@
             "name": "User navigates to the login page",
             "result": {
               "status": "passed",
-              "duration": 8993000000
+              "duration": 1010000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "User \"testuser\" is selected",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 38000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "User inputs username",
             "result": {
               "status": "passed",
-              "duration": 475000000
+              "duration": 600000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "User inputs password",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 514000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "User presses Sign In button",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 193000000
             }
           },
           {
@@ -72,13 +72,13 @@
             "name": "User is logged in",
             "result": {
               "status": "passed",
-              "duration": 680000000
+              "duration": 900000000
             }
           }
         ]
       },
       {
-        "id": "login-test;user-signs-in-as-testuser2",
+        "id": "login-test-with-three-users;user-signs-in-as-testuser2",
         "keyword": "Scenario",
         "line": 11,
         "name": "User signs in as testuser2",
@@ -92,7 +92,7 @@
             "name": "User signs out",
             "result": {
               "status": "passed",
-              "duration": 265000000
+              "duration": 494000000
             }
           },
           {
@@ -102,13 +102,13 @@
             "name": "User signs in as \"testuser2\"",
             "result": {
               "status": "passed",
-              "duration": 1513000000
+              "duration": 1917000000
             }
           }
         ]
       },
       {
-        "id": "login-test;user-signs-in-as-newuser2",
+        "id": "login-test-with-three-users;user-signs-in-as-newuser2",
         "keyword": "Scenario",
         "line": 15,
         "name": "User signs in as newuser2",
@@ -122,7 +122,7 @@
             "name": "User signs out",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 556000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "User navigates to the login page",
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 108000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "User \"newuser2\" is selected",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 10000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "User inputs username",
             "result": {
               "status": "passed",
-              "duration": 469000000
+              "duration": 583000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "User inputs password",
             "result": {
               "status": "passed",
-              "duration": 341000000
+              "duration": 461000000
             }
           }
         ]

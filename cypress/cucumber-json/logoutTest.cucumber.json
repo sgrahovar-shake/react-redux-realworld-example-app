@@ -5,7 +5,7 @@
     "line": 1,
     "id": "sign-out",
     "tags": [],
-    "uri": "logoutTest.feature",
+    "uri": "LogoutTest.feature",
     "elements": [
       {
         "id": "sign-out;user-signs-in-as-testuser",
@@ -22,7 +22,7 @@
             "name": "User signs in as \"testuser\"",
             "result": {
               "status": "passed",
-              "duration": 14986000000
+              "duration": 3172000000
             }
           }
         ]
@@ -42,7 +42,7 @@
             "name": "User is logged in",
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 159000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "User signs out",
             "result": {
               "status": "passed",
-              "duration": 245000000
+              "duration": 445000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "User is signed out",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 52000000
             }
           }
         ]
