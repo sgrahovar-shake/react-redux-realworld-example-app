@@ -1,0 +1,23 @@
+{
+    "testuser":{
+        "email": "testuser@iptiq.com",
+        "username": "iptiq_user",
+        "password": "test1234",
+        "profilePictureUrl": "",
+        "bio": ""
+    },
+    "testuser2":{
+        "email": "dejabe2111@shopxda.com",
+        "username": "dejabe2111",
+        "password": "DECODE11",
+        "profilePictureUrl": "",
+        "bio": ""
+    },
+    "newuser2":{
+        "email": "user2@example.com",
+        "username": "",
+        "password": "p4ssw0rd2",
+        "profilePictureUrl": "",
+        "bio": ""
+    }
+}

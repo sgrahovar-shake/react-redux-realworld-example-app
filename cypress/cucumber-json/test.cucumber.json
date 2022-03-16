@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Passing with TypeScript",
+    "line": 1,
+    "id": "passing-with-typescript",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "passing-with-typescript;hello-again",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Hello again",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "The title is Conduit",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I input username",
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I input password",
+            "result": {
+              "status": "passed",
+              "duration": 314000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

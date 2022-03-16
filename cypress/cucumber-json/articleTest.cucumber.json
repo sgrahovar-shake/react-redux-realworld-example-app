@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Article test",
+    "line": 1,
+    "id": "article-test",
+    "tags": [],
+    "uri": "articleTest.feature",
+    "elements": [
+      {
+        "id": "article-test;post-article",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Post article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User signs in as \"testuser\"",
+            "result": {
+              "status": "passed",
+              "duration": 2732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User navigates to the New Article page",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User selects article \"0\" to input",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User inputs article title",
+            "result": {
+              "status": "passed",
+              "duration": 1122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User inputs article description",
+            "result": {
+              "status": "passed",
+              "duration": 448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User inputs article text",
+            "result": {
+              "status": "passed",
+              "duration": 352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User inputs article tags",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User publishes article",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User validates article",
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "article-test;post-another-article",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Post another article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User clicks on New Post",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "User is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User posts article \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 2489000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

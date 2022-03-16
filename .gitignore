@@ -3,6 +3,10 @@
 # dependencies
 node_modules
 
+# cypress image/video folders
+cypress/screenshots/
+cypress/videos/
+
 # testing
 coverage
 
