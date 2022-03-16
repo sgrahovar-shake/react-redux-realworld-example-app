@@ -29,6 +29,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        
+      - name: install dbus
+        run: sudo apt-get install -y dbus
 
       - name: "UI Tests - Chrome"
         uses: cypress-io/github-action@v2
