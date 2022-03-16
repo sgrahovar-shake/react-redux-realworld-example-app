@@ -20,6 +20,7 @@ jobs:
             sudo docker –version
           
   ui-chrome-tests:
+    needs: install_docker
     timeout-minutes: 15
     runs-on: macos-latest
     container: cypress/browsers:node14.17.0-chrome88-ff89
