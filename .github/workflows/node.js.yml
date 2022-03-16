@@ -17,7 +17,7 @@ jobs:
         - name: echo
           run: |
             brew install docker-machine docker
-            sudo docker –version
+            sudo docker
           
   ui-chrome-tests:
     needs: install_docker
