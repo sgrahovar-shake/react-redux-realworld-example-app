@@ -13,6 +13,7 @@ jobs:
   build:
 
     runs-on: macos-latest
+    container: cypress/browsers:chrome69
 
     strategy:
       matrix:
@@ -28,10 +29,12 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build
           start: npm start
           wait-on: "http://localhost:4100"
           browser: chrome
-          headless: true
+          headless: false
+          record: true
+          wait-on-timeout: 120
         env:
+          CYPRESS_PROJECT_ID:  ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
