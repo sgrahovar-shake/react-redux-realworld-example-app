@@ -10,30 +10,11 @@ on:
     branches: [ master ]
 
 jobs:
-  install:
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node14.17.0-chrome88-ff89
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Cypress install
-        uses: cypress-io/github-action@v2
-        with:
-          runTests: false
-          
-      #- name: Save build folder
-        #uses: actions/upload-artifact@v2
-        #with:
-          #name: build
-          #if-no-files-found: error
-          #path: build
-  
   ui-chrome-tests:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     container: cypress/browsers:node14.17.0-chrome88-ff89
-    needs: install
+    # needs: install
     strategy:
       # when one test fails, DO NOT cancel the other
       # containers, because this will kill Cypress processes
@@ -42,7 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         # run copies of the current job in parallel
-        containers: [1, 2, 3, 4, 5]
+        containers: [1]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
