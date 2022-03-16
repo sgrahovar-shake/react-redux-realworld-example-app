@@ -55,7 +55,6 @@ jobs:
           start: npm start
           wait-on: "http://localhost:4100"
           wait-on-timeout: 120
-          browser: chrome
           record: true
           group: "UI - Chrome"
           spec: cypress/integration/*.feature
