@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ add-pipeline ]
+    branches: [ master ]
   pull_request:
-    branches: [ add-pipeline ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -30,3 +30,6 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          wait-on: "http://localhost:4100"
+          browser: chrome
+          headless: true
