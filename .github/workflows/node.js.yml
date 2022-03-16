@@ -37,7 +37,7 @@ jobs:
           browser: chrome
           record: true
           group: "UI - Chrome"
-          spec: cypress/integration
+          spec: cypress/integration/*.feature
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
