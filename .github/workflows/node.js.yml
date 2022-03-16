@@ -21,12 +21,17 @@ jobs:
       # leaving the Dashboard hanging ...
       # https://github.com/cypress-io/github-action/issues/48
       fail-fast: false
-      matrix:
-        node-version: [14.x]
+      # matrix:
+        # node-version: [14.x]
         # run copies of the current job in parallel
         # containers: [1]
         
     steps:
+      - name: Setup node 14
+        uses: ./
+        with:
+          node-version: 14.x
+    
       - name: Checkout
         uses: actions/checkout@v2
         
